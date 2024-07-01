@@ -127,3 +127,5 @@ This class is used in each generator to ensure that data generation doesn't exce
 
 ## Conclusion
 This Accounts Payable Data Generator provides a flexible and extensible framework for creating realistic AP data. By following the implementation steps and understanding the key components, developers can easily generate large volumes of synthetic data that reflect the complexities of a global Fortune 500 company's AP processes.
+
+## Shoutout to Anthropic. This code base has been generated using Anthropic Claude 3.5 Sonnet in under 3 hours.
