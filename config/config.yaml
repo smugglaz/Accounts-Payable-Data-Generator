@@ -1,0 +1,70 @@
+general:
+  start_date: "2019-01-01"
+  end_date: "2024-07-01"
+  output_format: "csv"
+  max_operations_per_second: 1000
+
+regions:
+  - name: "North America"
+    countries: ["USA", "Canada"]
+    currencies: ["USD", "CAD"]
+    tax_rates:
+      default: 0.08
+      by_category:
+        "IT Equipment": 0.10
+        "Professional Services": 0.05
+  - name: "Europe"
+    countries: ["UK", "Germany", "France"]
+    currencies: ["GBP", "EUR"]
+    tax_rates:
+      default: 0.20
+      by_category:
+        "IT Equipment": 0.21
+        "Professional Services": 0.19
+
+vendors:
+  total_count: 5000
+  payment_terms: ["Net 30", "Net 60", "Net 90", "2% 10 Net 30"]
+  allowed_regions_distribution:
+    single_region: 0.7
+    multi_region: 0.3
+
+items:
+  categories:
+    - "Office Supplies"
+    - "IT Equipment"
+    - "Furniture"
+    - "Marketing Materials"
+    - "Professional Services"
+  items_per_category: 20
+  price_variation: 0.1
+
+purchase_orders:
+  total_count: 500000
+  min_items: 1
+  max_items: 20
+
+invoices:
+  statuses: ["Pending", "Approved", "Paid", "Blocked"]
+  block_reasons:
+    - "Price mismatch"
+    - "Quantity mismatch"
+    - "Missing PO"
+    - "Duplicate invoice"
+  grir_probability: 0.05
+
+payments:
+  methods: ["Bank Transfer", "Check", "Credit Card"]
+  additional_notes:
+    - "Payment processed"
+    - "Multiple invoices consolidated"
+    - "Partial payment due to dispute"
+    - "Payment terms renegotiated"
+
+exchange_rates:
+  base_currency: "USD"
+  rates:
+    USD: 1.0
+    CAD: 1.25
+    GBP: 0.73
+    EUR: 0.85

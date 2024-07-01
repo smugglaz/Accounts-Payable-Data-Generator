@@ -1,0 +1,52 @@
+description_templates:
+  "Office Supplies":
+    - "{ADJ} {NOUN} for {VERB} efficiency"
+    - "Professional-grade {NOUN} by {BRAND}"
+    - "{BRAND} {MODEL} {NOUN} for {ADJ} workspaces"
+  "IT Equipment":
+    - "{ADJ} {BRAND} {MODEL} for high-performance computing"
+    - "{BRAND} {NOUN} with {ADJ} {VERB} capabilities"
+    - "Enterprise-level {NOUN} solution by {BRAND}"
+  "Furniture":
+    - "{ADJ} {NOUN} for modern office spaces"
+    - "{BRAND} {MODEL} ergonomic {NOUN}"
+    - "Premium {NOUN} with {ADJ} design by {BRAND}"
+  "Marketing Materials":
+    - "Custom {NOUN} for {ADJ} brand promotion"
+    - "{ADJ} {NOUN} with company logo"
+    - "Bulk order of {BRAND} {NOUN} for marketing campaign"
+  "Professional Services":
+    - "{ADJ} consulting for {VERB} business processes"
+    - "{BRAND} {NOUN} implementation services"
+    - "Specialized {NOUN} training by industry experts"
+
+adjectives:
+  "Office Supplies": ["innovative", "eco-friendly", "durable", "premium", "ergonomic"]
+  "IT Equipment": ["high-performance", "secure", "scalable", "advanced", "cutting-edge"]
+  "Furniture": ["ergonomic", "modern", "adjustable", "space-saving", "stylish"]
+  "Marketing Materials": ["eye-catching", "customized", "branded", "high-quality", "promotional"]
+  "Professional Services": ["expert", "comprehensive", "tailored", "strategic", "innovative"]
+
+nouns:
+  "Office Supplies": ["paper", "pens", "notebooks", "staplers", "organizers"]
+  "IT Equipment": ["servers", "laptops", "routers", "monitors", "peripherals"]
+  "Furniture": ["desks", "chairs", "cabinets", "partitions", "workstations"]
+  "Marketing Materials": ["brochures", "banners", "flyers", "promotional items", "displays"]
+  "Professional Services": ["consultation", "training", "implementation", "support", "analysis"]
+
+verbs:
+  "Office Supplies": ["enhancing", "organizing", "streamlining", "managing", "optimizing"]
+  "IT Equipment": ["processing", "securing", "networking", "storing", "analyzing"]
+  "Furniture": ["improving", "organizing", "enhancing", "optimizing", "modernizing"]
+  "Marketing Materials": ["promoting", "advertising", "showcasing", "branding", "marketing"]
+  "Professional Services": ["optimizing", "transforming", "enhancing", "streamlining", "innovating"]
+
+brand_names:
+  "Office Supplies": ["Staples", "3M", "HP", "Moleskine", "Pilot"]
+  "IT Equipment": ["Dell", "HP", "Cisco", "Lenovo", "IBM"]
+  "Furniture": ["Steelcase", "Herman Miller", "Knoll", "Haworth", "Teknion"]
+  "Marketing Materials": ["VistaPrint", "4imprint", "Cimpress", "MOO", "Printful"]
+  "Professional Services": ["Accenture", "Deloitte", "KPMG", "PwC", "EY"]
+
+model_prefixes: ["A", "B", "C", "X", "Z"]
+model_suffixes: ["Pro", "Plus", "Max", "Elite", "Ultra"]
